@@ -29,7 +29,7 @@ $$\sigma_{\text{annual}} = \sqrt{252} \times \sqrt{\frac{1}{n-1} \sum_{i=1}^{n}\
 
 - Returns the premium estimated by BSM equations.
 
-$$d_1 = \frac{\ln\!\Bigl(\frac{S}{K}\Bigr) + \Bigl(r + \frac{\sigma^2}{2}\Bigr) \, T}{\sigma \,\sqrt{T}}, 
+$$d_1 = \frac{\ln\!\Bigl(\frac{S}{K}\Bigr) + \Bigl(r + \frac{\sigma^2}{2}\Bigr) \ T}{\sigma \sqrt{T}}, 
 \quad
 d_2 = d_1 - \sigma \sqrt{T}$$
 
