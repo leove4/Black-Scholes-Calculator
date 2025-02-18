@@ -41,3 +41,11 @@ $$\text{Call Price} = S \,\Phi(d_1)\; -\; K \, e^{-rT} \,\Phi(d_2)$$
 For a Put option:
 
 $$\text{Put Price} = K \, e^{-rT}\,\Phi(-d_2)\; -\; S \,\Phi(-d_1)$$
+
+## Comparing with prices from actual option chains
+
+  ```bash
+  python opcheck.py
+  ````
+- Enter a ticker and the risk free rate
+- this program will compare in a table market prices (from yfinance option chain) and our price in 2 columns : absdiff (absolute difference) and pctdiff (percentage difference)
