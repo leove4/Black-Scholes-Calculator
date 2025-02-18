@@ -35,12 +35,12 @@ d_2 = d_1 - \sigma \sqrt{T}$$
 
 For a Call option:
 
-$$\text{Call Price} = S \,\Phi(d_1)\; -\; K \, e^{-rT} \,\Phi(d_2)$$
+$$\text{Call Price} = S \Phi(d_1) -\ K e^{-rT} \Phi(d_2)$$
 
 
 For a Put option:
 
-$$\text{Put Price} = K \, e^{-rT}\,\Phi(-d_2)\; -\; S \,\Phi(-d_1)$$
+$$\text{Put Price} = K e^{-rT} \Phi(-d_2) - S \Phi(-d_1)$$
 
 ## Comparing with prices from actual option chains
 
