@@ -21,7 +21,7 @@ A python tool to price options including automatic volatility calculation
   python calc.py
   ````
 
-- Just define stock ticker, strike, expiry date, call/put and risk free rate (example : between 2.5 and 3.0 in France currently)
+- Just define stock ticker, strike, expiry date, call/put and risk free rate (example : between 0.025 and 0.03 in France currently)
 - with price data from yfinance the program computes the annualized historical volatility
 
 $$\sigma_{\text{annual}} = \sqrt{252} \times \sqrt{\frac{1}{n-1} \sum_{i=1}^{n}\bigl(r_i - \bar{r}\bigr)^2}$$
