@@ -15,7 +15,12 @@ A python tool to price options including automatic volatility calculation
   cd Black-Scholes-Calculator
   ```
 
-### How it works
+## How it works
+
+  ```bash
+  python calc.py
+  ````
+
 - Just define stock ticker, strike, expiry date, call/put and risk free rate (example : between 2.5 and 3.0 in France currently)
 - with price data from yfinance the program computes the annualized historical volatility
 
