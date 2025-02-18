@@ -35,7 +35,7 @@ while True:
     df["bsPremium"] = df.apply(lambda x: bs_price(S, x["strike"], r, x["T"], sig, x["optionType"]), axis=1)
     df["absDiff"] = df["bsPremium"] - df["lastPrice"]
     df["pctDiff"] = 100*df["absDiff"] / df["lastPrice"].replace(0, float("nan"))
-    df = df.sort_values(by="absDiff", ascending=False)
+    df = df.sort_values(by="pctDiff", ascending=False)
     
 
 
