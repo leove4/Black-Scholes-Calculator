@@ -39,7 +39,7 @@ while True:
     
 
 
-    print(df[["contractSymbol","optionType","expiration","strike","lastPrice","bsPremium","absDiff","pctDiff"]])
+    print(df[["contractSymbol","optionType","expiration","strike","bid", "ask", "lastPrice","bsPremium","absDiff","pctDiff"]])
 
     again = input("Try another? (y/n): ").strip().lower()
     if again != 'y':
